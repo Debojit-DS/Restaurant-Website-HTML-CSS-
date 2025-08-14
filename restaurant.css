@@ -81,10 +81,6 @@ a{
     font-weight: lighter;
 }
 
-.backImgPortion p{
-
-}
-
 .buttonSec{
     display:flex;
     justify-content:center;
@@ -273,10 +269,14 @@ input:focus{
     outline:none;
 }
 
+textarea{
+    padding:10px 100px;
+
+}
+
 textarea:focus{
     border:2px solid orange;
     outline: none;
-    padding:10px 15px;
 }
 
 form > button{
