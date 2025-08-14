@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Vista Restaurant Website</title>
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+    <header>
+        <div class="name">
+            <h1>Bella Vista</h1>
+            <p>Authentic Italian Cuisine</p>
+        </div>
+
+        <div class="nav">
+            <ul class="navlist">
+                <li class="items"><a href="#">Home</a></li>
+                <li class="items"><a href="#Menu">Menu</a></li>
+                <li class="items"><a href="#About">About</a></li>
+                <li class="items"><a href="#ContactUs">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="backImgPortion">
+        <h1 class="welcome">Welcome to Bella Vista</h1>
+        <br><br>
+        <p>Experience the authentic taste of Italy in the heart of the City.</p>
+
+        <br><br>
+
+        <div class="buttonSec">
+            <button id="menuButton">View Menu</button>
+            <button id="reservationButton">Make Reservation</button>
+        </div>
+    </div>
+
+    <div class="menuSection" id="Menu">
+        <h1 id="ourMenu">Our Menu</h1>
+        <br>
+        <p>Discover our carefully crafted dishes!</p>
+        <br><br>
+        <h1 id="heading">Appetizers</h1>
+        <hr>
+        <div class="menuItems" id="item1">
+            <div id="itemDesc">
+                <h3>Brushetta Italiana</h3>
+                <p>Fresh tomatoes, basil, and mozarella on toasted bread</p>
+            </div>
+            <div id="price">
+                <h5>$12</h5>
+            </div>
+        </div>
+        <div class="menuItems" id="item2">
+            <div id="itemDesc">
+                <h3>Antipasto Platter</h3>
+                <p>Selection of cured meats, cheeses and marinated vegetables</p>
+            </div>
+            <div id="price">
+                <h5>$18</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutSection" id="About">
+        <h1>About Bella Vista</h1>
+        <div class="aboutDesc">
+            <div id="leftWrite">
+                <h2>Our Story</h2>
+                <br>
+                <p>Founded in 1985 by the Rossi Family, Bella Vista has been serving authentic Italian cuisine for over three decades. Our passion for traditional recipes and fresh ingredients has made us a beloved desination for food lovers.</p>
+                <br>
+                <p>Every dish is prepared with love and attention to detail, using  recipes passed down through generations of Italian chefs.</p>
+            </div>
+
+            <div class="rightImg"></div>
+        </div>
+        
+    </div>
+
+    <div class="contactUsSection" id="ContactUs">
+        <h1>Contact Us</h1>
+        <div class="contactDesc">
+            <div class="getInTouch">
+                <h2>Get in Touch</h2>
+                <br><br><br>
+                <h3>Address:</h3><br>
+                <p>123 Italian Street, City Center, NY 10001</p>
+                <br><br>
+                <h3>Phone:</h3><br>
+                <p>(123) 456-7890</p>
+                <br><br>
+                <h3>Email:</h3><br>
+                <p>info@bellavista.com</p>
+            </div>
+
+            <div class="makeReserve">
+                <h2>Make a Reservation</h2>
+                <br>
+                <form>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br><br>
+                    <label for="date">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br><br>
+                    <label for="time">Phone:</label><br>
+                    <input type="number" id="phone" name="phone" required><br><br><br>
+                    <label for="guests">Reservation Date:</label><br>
+                    <input type="date" id="date" name="date" required><br><br><br>
+                    <label for="guests">Time:</label><br>
+                    <input type="time" id="time" name="time" required><br><br><br>
+                    <label for="guests">Number of Guests:</label><br>
+                    <input type="number" id="guests" name="guests" min="1" max="20" required><br><br><br>
+                    <label for="specialRequests">Special Requests:</label><br>
+                    <textarea id="specialRequests" name="specialRequests" rows="4" cols="50"></textarea><br><br><br>
+                    <button type="submit">Submit Reservation</button>
+                </form>
+            </div>
+    </div>
+
+    <footer>
+        
+        <div class="foot" id="bellaVistaConc">
+            <h2><b>Bella Vista</b></h2>
+            <br>
+            <p>Authentic Italian cuisine in the heart of the city. Experience the taste of Italy with every bite.</p>
+        </div>
+        <div class="foot" id="quickLinks">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="foot" id="openHour">
+            <h2>Opening Hours</h2>
+            <br>
+            <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+            <p>Saturday - Sunday: 12:00 PM - 11:00 PM</p>
+            <p>Reservations recommended for weekends.</p>
+        </div>
+        <div class="foot" id="followUs">
+            <h2>Follow Us</h2>
+            <br>
+            <div class="socials">
+                <button>Facebook</button>
+                <button>Instagram</button>
+                <button>Twitter</button>
+            </div>
+        </div>
+    </footer>
+
+    <p class="copyright">© 2025 Bella Vista Restaurant. All rights reserved.</p>
+</body>
+</html>

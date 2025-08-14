@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-color:white; */
+}
+
+body{
+    height:100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+header{
+    width:100vw;
+    height:120px;
+    background-color:#2c3e50;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 160px;
+    position:fixed;
+    top:0;
+    list-style: 5px;
+    z-index: 1;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navlist{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+}
+
+.items{
+    list-style:none;
+    cursor:pointer;
+}
+
+.items:hover{
+     font-size:17px;
+}
+
+.items:active{
+    background-color: rgba(211, 211, 211, 0.4);
+    border:1px solid orange;
+    padding:10px 20px;
+    border-radius:4px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.backImgPortion{
+    width:100vw;
+    height:100vh;
+    background-image:url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-blend-mode: saturation;
+}
+
+.welcome{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.backImgPortion p{
+
+}
+
+.buttonSec{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    
+}
+
+#menuButton{
+    height:50px;
+    width:130px;
+    background-color:orange;
+    border-radius:6px;
+    padding:5px 15px;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+#reservationButton{
+    height:50px;
+    width:180px;
+    background-color:transparent;
+    border:2px solid white;
+    border-radius:6px;
+    padding:5px 15px;
+    color:white;
+    cursor:pointer;
+}
+
+#reservationButton:hover{
+    background-color:white;
+    color:black;
+    font-weight:bold;
+    border:0.5px solid gray;
+}
+
+.menuSection{
+    width:70vw;
+    height:100vh;
+    margin:50px auto;
+    padding:20px;
+}
+
+#ourMenu{
+    color:#2c3e50;
+    text-align:center;
+    font-size:40px;
+}
+
+#Menu > p{
+    text-align:center;
+    font-size:15px;
+    color:rgb(46, 35, 35);
+}
+
+#heading{
+    color:#2c3e50;
+    text-align:left;
+    margin-left:20px;
+}
+
+hr{
+    height:2px;
+    background-color:orange;
+    border:none;
+    margin:15px 20px;
+    color:orange;
+}
+
+.menuItems{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:20px 60px;
+    border:1px solid lightgray;
+    border-radius:10px;
+    margin:20px 30px 25px 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#itemDesc{
+    line-height: 30px;
+}
+
+.menuItems{
+    transition: transform 0.3s ease;
+}
+
+.menuItems:hover{
+    transform:translateY(-10px) scale(1.01);
+
+}
+
+#price{
+    color:orange;
+    font-weight: bold;
+}
+
+#About{
+    width:100vw;
+    height:100vh;
+    margin:60px auto;
+    padding:20px 100px;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+#About > h1{
+    color:#2c3e50;
+    text-align:center;
+    font-size:40px;
+}
+
+.aboutDesc{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    padding:20px 40px;
+
+}
+
+#leftWrite > h2{
+    font-size: 30px;
+    color:#2c3e50;
+}
+
+#leftWrite{
+    width:400px;
+}
+
+.rightImg{
+    height:350px;
+    width:400px;
+    border-radius:10px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1723618941752-76eab1f4df12?q=80&w=796&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.5);
+}
+
+#ContactUs h1{
+    color:#2c3e50;
+    text-align:center;
+    font-size:40px;
+}
+
+#ContactUs{
+    width:100vw;
+    height:100vh;
+    margin:60px auto;
+    padding:20px 100px;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+.getInTouch{
+    position:relative;
+    bottom:180px;
+}
+
+.contactDesc{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.makeReserve{
+    position:relative;
+    top:50px;
+}
+
+input{
+    height:35px;
+    width:450px;
+    border-radius:5px;
+    border:1px solid gray;
+    padding:10px 10px;
+    margin:5px 0;
+}
+
+input:focus{
+    border:2px solid orange;
+    outline:none;
+}
+
+form > button{
+    height:40px;
+    width:150px;
+    background-color:rgb(255, 102, 0);
+    border-radius:5px;
+    border:1px solid black;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+footer{
+    width:100vw;
+    height:400px;
+    overflow-x: hidden;
+    background-color:#2c3e50;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:100px;
+    margin-top:100px;
+    position: relative;
+    right:100px;
+    padding: 70px 100px;
+}
+
+.foot{
+    width:300px;
+}
+
+#quickLinks li{
+    list-style:none;
+    margin:10px 0;
+}
+
+#quickLinks a:hover{
+    color:orange;
+}
+
+#quickLink a:active{
+    border:1px solid orange;
+    padding:3px 6px;
+}
+
+.copyright{
+    color:white;
+    font-weight: bold;
+    position:relative;
+    bottom:100px;
+    left:400px;
+}
+
+.socials{
+    display: flex;
+    gap:5px;
+}
+
+.socials button{
+    padding:10px 20px;
+    background-color: rgba(128, 128, 128,0.5);
+    color:white;
+    cursor:pointer;
+}
