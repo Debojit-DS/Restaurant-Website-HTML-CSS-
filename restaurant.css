@@ -273,6 +273,12 @@ input:focus{
     outline:none;
 }
 
+textarea:focus{
+    border:2px solid orange;
+    outline: none;
+    padding:10px 15px;
+}
+
 form > button{
     height:40px;
     width:150px;
