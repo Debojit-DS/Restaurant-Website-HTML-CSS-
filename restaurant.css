@@ -46,13 +46,14 @@ header{
 
 .items:hover{
      font-size:17px;
+     border-radius: 50%;
 }
 
 .items:active{
     background-color: rgba(211, 211, 211, 0.4);
     border:1px solid orange;
     padding:10px 20px;
-    border-radius:4px;
+    border-radius:50%;
 }
 
 a{
